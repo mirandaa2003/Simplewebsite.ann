@@ -1,0 +1,242 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("bg.jpeg");
+        background-repeat: no-repeat; 
+        background-size: cover;         
+        background-position: center;
+        background-attachment: fixed;
+        background-color: #cccccc;
+}
+
+/* Navigation */
+nav {
+    background: #333;
+    padding: 20px;
+    width: 80pc;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    padding-left: 100px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: lightgreen;
+    box-shadow: 0 2px 10px orangered;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: zoom-in;
+    border-radius: 50px;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+/* Page Layout */
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+}
+/* Product Grid */
+.product-section {
+    margin-top: 40px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    background: coral;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+.product-card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    border-radius: 6px;
+}
+
+.product-card h3 {
+    margin: 10px 0 5px;
+}
+
+.product-card p {
+    margin: 0px;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+}
+/* Contact Page */
+.container{
+    background: lightcoral;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.5);
+}
+.container-con{
+    text-align: center;
+    padding: 30px;
+    margin: 50px auto;
+    width: 400px;
+    border: 3px solid grey;
+    border-radius: 10px;
+    background: coral;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 15px;
+    margin: 10px auto;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,1);
+}
+
+.contact-item img {
+    width: 35px;
+    height: 35px;
+    
+}
+
+.contact-item a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-item a:hover {
+    color: #ff8800;
+}
+.no-copyright-footer {
+    background-color: orange;
+    color: black; 
+    padding: 15px 0; 
+    margin-top: auto;
+    width: 80pc; 
+    text-align: center; 
+    border-top: 2px solid lightblue;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 0.8em; 
+}
+
+/* CSS */
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+.promo-section{
+  width:90%;
+  max-width:600px;
+  background:#fff;
+  margin:50px auto;
+  text-align:center;
+  padding:30px;
+  border-radius:15px;
+  box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+
+.promo-image{
+  width:200px;
+  margin:auto;
+  display:block;
+}
+
+.promo-section h1{
+  margin-top:20px;
+  letter-spacing:2px;
+  color:#c85c3d;
+}
+
+.discount{
+  font-size:30px;
+  color:#ff7733;
+  font-weight:bold;
+  margin-top:10px;
+}
+
+.details{
+  margin:15px 0;
+  color:#555;
+}
